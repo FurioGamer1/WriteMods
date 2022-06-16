@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "normal": {
+      "model": "writemods:pieton_block"
+    },
+      "facing=north": { "model": "writemods:pieton_block" },
+      "facing=east":  { "model": "writemods:pieton_block", "y": 90 },
+      "facing=south": { "model": "writemods:pieton_block", "y": 180 },
+      "facing=west":  { "model": "writemods:pieton_block", "y": 270 }
+
+    }
+  }

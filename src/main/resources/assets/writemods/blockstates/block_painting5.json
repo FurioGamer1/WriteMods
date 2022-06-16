@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "normal": {
+      "model": "writemods:painting5_block"
+    },
+    "facing=north": { "model": "writemods:painting5_block" },
+    "facing=east":  { "model": "writemods:painting5_block", "y": 90 },
+    "facing=south": { "model": "writemods:painting5_block", "y": 180 },
+    "facing=west":  { "model": "writemods:painting5_block", "y": 270 }
+
+  }
+}

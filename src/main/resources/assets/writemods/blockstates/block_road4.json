@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "normal": {
+      "model": "writemods:road4_block"
+    },
+    "facing=north": { "model": "writemods:road4_block" },
+    "facing=east":  { "model": "writemods:road4_block", "y": 90 },
+    "facing=south": { "model": "writemods:road4_block", "y": 180 },
+    "facing=west":  { "model": "writemods:road4_block", "y": 270 }
+
+  }
+}

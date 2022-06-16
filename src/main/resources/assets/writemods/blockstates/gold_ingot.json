@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "normal": {
+      "model": "writemods:ingot_gold"
+    },
+    "facing=north": { "model": "writemods:ingot_gold" },
+    "facing=east":  { "model": "writemods:ingot_gold", "y": 90 },
+    "facing=south": { "model": "writemods:ingot_gold", "y": 180 },
+    "facing=west":  { "model": "writemods:ingot_gold", "y": 270 }
+
+  }
+}

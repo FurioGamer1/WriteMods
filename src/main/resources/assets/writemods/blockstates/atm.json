@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "normal": {
+      "model": "writemods:atm"
+    },
+    "facing=north": { "model": "writemods:atm" },
+    "facing=east":  { "model": "writemods:atm", "y": 90 },
+    "facing=south": { "model": "writemods:atm", "y": 180 },
+    "facing=west":  { "model": "writemods:atm", "y": 270 }
+
+  }
+}

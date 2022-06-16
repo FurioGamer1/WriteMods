@@ -1,0 +1,45 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "writemods:Model.obj",
+    "custom": {
+      "flip-v": true
+    },
+    "textures": {
+      "#0": "writemods:blocks/gold_ingot"
+    }
+  },
+  "variants": {
+    "normal": {
+      "model": "writemods:Model.obj"
+    },
+    "facing=north": {
+      "model": "writemods:Model.obj"
+    },
+    "facing=east": {
+      "model": "writemods:Model.obj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "writemods:Model.obj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "writemods:Model.obj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "writemods:Model.obj",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "writemods:Model.obj",
+      "x": 270
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-item"
+      }
+    ]
+  }
+}
